@@ -19,6 +19,10 @@ public class UserController {
     public String getHome(){
         return "home";
     }
+    @RequestMapping(method = RequestMethod.GET, value = "login")
+    public String login(){
+        return "login";
+    }
 
     @RequestMapping(value = "registration", method = RequestMethod.GET)
     public String showRegistrationForm(){
