@@ -31,6 +31,7 @@ public class SecurityWebAdapter extends WebSecurityConfigurerAdapter {
                 .and()
                 .logout()
                 .permitAll();
+        http.csrf().disable();
     }
 
 

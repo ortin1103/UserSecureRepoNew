@@ -61,10 +61,13 @@ public class User {
         this.roles = roles;
     }
 
-    public User(String username, String password, Set<Role> roles) {
+    public User(String username, String password) {
         this.username = username;
         this.password = password;
-        this.roles = roles;
+
+    }
+
+    public User() {
     }
 
     @Override

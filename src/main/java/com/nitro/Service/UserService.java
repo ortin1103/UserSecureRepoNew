@@ -9,5 +9,5 @@ public interface UserService {
     public String addUser(User user);
     public void deleteUser(Long id);
     public User getUser(Long id);
-    public String getUsers();
+    public Iterable<User> getUsers();
 }

@@ -36,8 +36,8 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-     public String getUsers() {
+     public Iterable<User> getUsers() {
 
-        return String.valueOf(userRepository.findAll());
+        return userRepository.findAll();
     }
 }
