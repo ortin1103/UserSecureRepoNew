@@ -1,14 +1,16 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Welcome</title>
+    <title>Create an account</title>
 </head>
 <body>
-<h1>Hello, select item</h1>
-<a href="/users"> Show all user</a>
-<form action="/logout" method="post">
-    <input type="submit" value="Sign Out"/>
-</form>
+<div class="container">
+
+
+    <form action="/logout" method="post">
+        <input type="submit" value="Sign Out"/>
+    </form>
+
+</div>
 </body>
 </html>
