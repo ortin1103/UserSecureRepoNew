@@ -14,7 +14,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 @EnableWebSecurity
 public class SecurityWebAdapter extends WebSecurityConfigurerAdapter {
 
-
     @Autowired
     UserDetailsService userDetailsService;
 
@@ -38,6 +37,6 @@ public class SecurityWebAdapter extends WebSecurityConfigurerAdapter {
     @Autowired
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth
-               .userDetailsService(this.userDetailsService);
+                .userDetailsService(this.userDetailsService);
     }
 }

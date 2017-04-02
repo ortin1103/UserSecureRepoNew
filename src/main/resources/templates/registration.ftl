@@ -30,8 +30,8 @@
                 </div>
                 <div class="form-group">
                     <div class="col-sm-9">
-                        <input type="checkbox" name="Role" value="Admin"> Admin</br>
-                        <input type="checkbox" name="Role" value="User"> User </br>
+                        <input type="checkbox" name="Role" value="ADMIN"> Admin</br>
+                        <input type="checkbox" name="Role" value="USER"> User </br>
                     </div>
                 </div>
 
